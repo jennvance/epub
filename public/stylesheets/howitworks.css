@@ -1,0 +1,11 @@
+.top-box {
+ 	height: 150px;
+ 	background-color: tomato;
+}
+
+.middle-box {
+ 	height: 20px;
+ 	width: 75px;
+ 	background-color: blue;
+ 	margin-left: 45%;
+ }

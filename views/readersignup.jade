@@ -1,0 +1,85 @@
+extends layout
+
+block content
+	.headbar
+		.top-box
+	//- h3 BE YOUR OWN BOSS
+	.mid-block
+		.testimonial.left
+			h3 CHOOSE YOUR HOURS
+			h3 GET PAID TO READ
+			h3 DISCOVER NEW FAVORITES
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		.testimonial.sign-up
+			h3 SIGN UP TO BE A BETA READER
+			form(role='form', method='post', action='/formsubmit')
+				.form-group
+					label(for='name') Name
+					input#name.form-control(type='name', placeholder='First Name', name='name')
+				.form-group
+					label(for='exampleInputEmail1') Email
+					input#exampleInputEmail1.form-control(type='email', placeholder='Email', name='email')
+				//- .form-group
+				//- 	label(for='exampleInputPassword1') Password
+				//- 	input#exampleInputPassword1.form-control(type='password', placeholder='Password', name='password')
+				//- //- .form-group
+				//- 	label(for='exampleInputFile') File input
+				//- 	input#exampleInputFile(type='file')
+				p.help-block Example block-level help text here.
+				.checkbox
+					label
+					input(type='checkbox', name='addToMailingList')
+					| I'd like to receive updates
+				button.btn.btn-default(type='submit') Submit
+	.faq
+		h3 FREQUENTLY ASKED QUESTIONS
+		#accordion.panel-group
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseOne')
+							| I already have a job. Can I still be a beta reader?
+				#collapseOne.panel-collapse.collapse
+					.panel-body
+						| Yes.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo')
+							| What are the requirements to be a reader?
+				#collapseTwo.panel-collapse.collapse
+					.panel-body
+						| You have to like reading.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseThree')
+							| How does the application process work?
+				#collapseThree.panel-collapse.collapse
+					.panel-body
+						| You apply.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseFour')
+							| What if I hate the manuscript I'm assigned?
+				#collapseFour.panel-collapse.collapse
+					.panel-body
+						| Oh well.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseFive')
+							| How do I get paid?
+				#collapseFive.panel-collapse.collapse
+					.panel-body
+						| You receve weekly payments.
+
+		h6
+			a(href='mailto:vancjenniferm@gmail.com') Don't See Your Question Here? Email Us!
+
+block stylesheet
+	link(rel='stylesheet', href='/stylesheets/readersignup.css')

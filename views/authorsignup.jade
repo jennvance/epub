@@ -1,0 +1,92 @@
+extends layout
+
+block content
+	.headbar
+		//- img(src='http://placekitten.com/1600/400')
+		.top-box
+		//- .slogan
+		//- 	h3
+		//- 		| GET FEEDBACK
+		//- 		br
+		//- 		span.italic BEFORE
+		//- 		|  YOU HIT PUBLISH
+
+	.mid-block
+		.testimonial
+			h3 GET FEEDBACK
+			h3 EDIT RAPIDLY, PUBLISH SOONER
+			h3 REACH LOYAL READERS/FANS
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.		
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		.testimonial.sign-up
+			h3 FIND A BETA READER
+			form(role='form', method='post', action='/formsubmit')
+				.form-group
+					label(for='exampleInputEmail1') Name
+					input#name.form-control(type='name', placeholder='First Name', name='name')
+				.form-group
+					label(for='exampleInputPassword1') Email
+					input#exampleInputEmail1.form-control(type='email', placeholder='Email', name='email')
+				p.help-block
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				.checkbox
+					label
+					input(type='checkbox', name='wantsAdLib')
+					| I want "ad lib" feedback.
+				.checkbox
+					label
+					input(type='checkbox', name='iHaveQuestions')
+					| I have specific questions for the reader.
+				button.btn.btn-default(type='submit') Submit
+	.faq
+		h3 Frequently Asked Questions
+		#accordion.panel-group
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseOne')
+							| I already have an editor. Do I really need a beta reader?
+				#collapseOne.panel-collapse.collapse
+					.panel-body
+						| Yes.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo')
+							| How do I know readers are high quality?
+				#collapseTwo.panel-collapse.collapse
+					.panel-body
+						| They have to like reading.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseThree')
+							| How soon can I get feedback?
+				#collapseThree.panel-collapse.collapse
+					.panel-body
+						| 24-48 hours.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseFour')
+							| What if my beta reader provides unsatisfactory feedback?
+				#collapseFour.panel-collapse.collapse
+					.panel-body
+						| Oh well.
+			.panel.panel-default
+				.panel-heading
+					h4.panel-title
+						a(data-toggle='collapse', data-parent='#accordion', href='#collapseFive')
+							| Where does my money go?
+				#collapseFive.panel-collapse.collapse
+					.panel-body
+						| You receve weekly payments.
+		h6
+			a(href='mailto:vancjenniferm@gmail.com') Don't See Your Question Here? Email Us!
+
+block stylesheet
+	link(rel='stylesheet', href='/stylesheets/authorsignup.css')

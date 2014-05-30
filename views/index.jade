@@ -1,0 +1,38 @@
+extends layout
+
+block content
+	.headbar
+		img(src='/images/books.jpg')
+		.slogan
+			h3
+				| GET READER FEEDBACK
+				br
+				span.italic BEFORE
+				|  YOU HIT PUBLISH
+		//- .cta-button
+		//- 	button(type='button') Find A Beta Reader
+	.summary
+		p
+			| Get a Beta reader for honest feedback before you publish. Request a reader with one click, and get feedback within 24 hours.
+		p ____________
+		h4
+			a(href='howitworks')
+				| See How It Works >>
+	.benefits
+		.benefit
+			h3 EFFORTLESS
+			p
+			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		.benefit.middle
+			h3 AFFORDABLE
+			p
+			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		.benefit
+			h3 RISK FREE
+			p
+			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	//- .future-video
+	//- 	img(src='http://placekitten.com/800/400')
+
+block stylesheet
+	link(rel='stylesheet', href='/stylesheets/index.css')

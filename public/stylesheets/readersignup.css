@@ -1,0 +1,78 @@
+
+form {
+	background-color: turquoise;
+	padding: 2%;
+	/*color: turquoise;*/
+}
+
+div.form-group {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.mid-block {
+	margin-top: 50px;
+	margin-left: 8%;
+	/*margin: 1%;*/
+	width: 100%;
+}
+
+ .testimonial {
+ 	display: inline-block;
+ 	padding: 10px 20px 10px 20px;
+ 	width: 40%;
+ 	margin-top: 0;
+ 	
+ }
+
+ .faq {
+ 	border: 1px solid tomato;
+ 	width: 75%;
+ 	margin-left: 12%;
+ 	margin-bottom: 3%;
+ 	margin-top: 4%;
+ 	padding-left: 10%;
+ 	padding-right: 10%;
+ }
+
+ .faq h3, h6 {
+ 	text-align: center;
+ }
+
+ .faq h6 > a {
+ 	color: tomato;
+ }
+
+
+ .top-box {
+ 	height: 150px;
+ 	background-color: turquoise;
+ }
+
+ .panel-default {
+ 	box-shadow: none;
+ }
+
+ .panel {
+ 	box-shadow: none;
+ 	border: none;
+ }
+
+.panel-default > .panel-heading {
+	color: turquoise;
+	background-color: white;
+	/*border: 0px solid white;*/
+	border: none;
+}
+
+.panel-title {
+	font-weight: bold;
+}
+
+.panel-group .panel-heading+.panel-collapse .panel-body {
+	border-top: none;
+}
+
+a:hover {
+	text-decoration: none;
+}

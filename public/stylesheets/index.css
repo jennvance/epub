@@ -1,0 +1,184 @@
+body {
+	font-family: 'Georgia', sans-serif;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Helvetica';
+	font-size: 40px;	
+	padding-left: 20px;
+	color: white;
+	float: left;
+	width: 35%;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+.active {
+	font-weight: bold;
+	border-bottom: 2px solid khaki;
+}
+
+.headbar {
+	position: relative;
+	width: 100%;
+}
+
+.headbar img {
+	width: 100%;
+	height: 500px;
+	/*position: absolute;*/
+	z-index: -1;
+}
+
+.navbark {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+
+}
+
+.navbark li {
+	display: inline-block;
+	padding: 30px 0px 15px 30px;
+	font-size: 18px;
+}
+
+.navbark a {
+	color: white;
+	text-decoration: none;
+}
+
+div.nav1 {
+	float: right;
+}
+
+ul.nav1 {
+	padding-left: 50%;
+}
+
+.slogan {
+	position: absolute;
+	/*z-index: 10;*/
+	width: 100%;
+	top: 0;
+	padding-top: 200px;
+	padding-left: 75px;
+	color: white;
+}
+
+.slogan h3 {
+	font-size: 42px;
+	line-height: 1.25;
+}
+
+.cta-button {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	padding-top: 375px;
+
+}
+
+button {
+	height: 50px;
+	color: white;
+	background-color: turquoise;
+	border: none;
+	font-size: 18px;
+	margin-left: 42%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.summary {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.summary p {
+	font-size: 18px;
+}
+
+.summary a {
+	text-decoration: none;
+}
+
+/*.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }*/
+
+ a {
+ 	text-decoration: none;
+ }
+
+.benefits {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 13%;
+	width: 100%;
+}
+
+ .benefit {
+ 	display: inline-block;
+ 	padding: 10px 15px 10px 15px;
+ 	max-width: 25%;
+ 	
+ }
+
+ .middle {
+ 	border-left: 1px solid khaki;
+ 	border-right: 1px solid khaki;
+ }
+
+.future-video img {
+	margin-top: 3%;
+	margin-left: 20%;
+	margin-bottom: 3%;
+}
+
+.footer {
+	background-color: gray;
+	color: white;
+	margin-top: 3%;
+}
+
+.column {
+	display: inline-block;
+	max-width: 20%;
+	padding: 20px 40px;
+}
+
+.column h5 {
+	font-size: 16px;
+}
+
+.footer ul {
+	padding-left: 0px;
+}
+
+.footer li {
+	list-style-type: none;
+	padding: 3px 0px;
+}
+
+.column li > a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
