@@ -44,7 +44,7 @@ app.get('/readersignup', function(req, res) {
 })
 
 app.get('/comingsoon', function(req, res) {
-	res.render('comingsoon')
+	res.render('comingsoon', { d : 'active'})
 })
 
 app.post('/formsubmit', function(req, res) {
