@@ -2,15 +2,7 @@ extends layout
 
 block content
 	.headbar
-		//- img(src='http://placekitten.com/1600/400')
-		.top-box
-		//- .slogan
-		//- 	h3
-		//- 		| GET FEEDBACK
-		//- 		br
-		//- 		span.italic BEFORE
-		//- 		|  YOU HIT PUBLISH
-
+		img(src='/images/books.jpg')
 	.mid-block
 		.testimonial
 			h3 GET FEEDBACK
@@ -31,16 +23,15 @@ block content
 				.form-group
 					label(for='exampleInputPassword1') Email
 					input#exampleInputEmail1.form-control(type='email', placeholder='Email', name='email')
+				//- .form-group
+				//- 	label(for='exampleInputFile') Attach your manuscript here
+				//- 	input#exampleInputFile(type='file')
 				p.help-block
-					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					| BookBeta is still in, well, private beta mode. Sign up to be notified as soon as we have an army of beta readers at your disposal.
 				.checkbox
 					label
-					input(type='checkbox', name='wantsAdLib')
-					| I want "ad lib" feedback.
-				.checkbox
-					label
-					input(type='checkbox', name='iHaveQuestions')
-					| I have specific questions for the reader.
+					input(type='checkbox', name='wantsNotification', checked)
+					| Notify my when BookBeta is ready
 				button.btn.btn-default(type='submit') Submit
 	.faq
 		h3 Frequently Asked Questions

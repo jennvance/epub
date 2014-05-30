@@ -1,6 +1,6 @@
 
 form {
-	background-color: turquoise;
+	background-color: #8ec5f4;
 	padding: 2%;
 	/*color: turquoise;*/
 }
@@ -26,7 +26,7 @@ div.form-group {
  }
 
  .faq {
- 	border: 1px solid tomato;
+ 	border: 1px solid khaki;
  	width: 75%;
  	margin-left: 12%;
  	margin-bottom: 3%;
@@ -40,13 +40,13 @@ div.form-group {
  }
 
  .faq h6 > a {
- 	color: tomato;
+ 	color: #428bca;
  }
 
 
  .top-box {
  	height: 150px;
- 	background-color: turquoise;
+ 	background-color: #428bca;
  }
 
  .panel-default {
@@ -59,7 +59,7 @@ div.form-group {
  }
 
 .panel-default > .panel-heading {
-	color: turquoise;
+	color: #428bca;
 	background-color: white;
 	/*border: 0px solid white;*/
 	border: none;

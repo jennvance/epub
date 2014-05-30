@@ -1,1 +1,1 @@
-{"name":"jenn","email":"je@gmail.com","wantsAdLib":"on"}
+{"name":"test","email":"t@g.com","wantsNotification":"on"}

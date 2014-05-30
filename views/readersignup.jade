@@ -2,8 +2,7 @@ extends layout
 
 block content
 	.headbar
-		.top-box
-	//- h3 BE YOUR OWN BOSS
+		img(src='/images/books.jpg')
 	.mid-block
 		.testimonial.left
 			h3 CHOOSE YOUR HOURS
@@ -22,17 +21,12 @@ block content
 				.form-group
 					label(for='exampleInputEmail1') Email
 					input#exampleInputEmail1.form-control(type='email', placeholder='Email', name='email')
-				//- .form-group
-				//- 	label(for='exampleInputPassword1') Password
-				//- 	input#exampleInputPassword1.form-control(type='password', placeholder='Password', name='password')
-				//- //- .form-group
-				//- 	label(for='exampleInputFile') File input
-				//- 	input#exampleInputFile(type='file')
-				p.help-block Example block-level help text here.
+				p.help-block
+					| BookBeta is still in, well, private beta mode. Sign up to be notified as soon as we start gathering our army of beta readers.
 				.checkbox
 					label
-					input(type='checkbox', name='addToMailingList')
-					| I'd like to receive updates
+					input(type='checkbox', name='addToMailingList', checked)
+					| Notify me when BookBeta is ready
 				button.btn.btn-default(type='submit') Submit
 	.faq
 		h3 FREQUENTLY ASKED QUESTIONS
