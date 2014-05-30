@@ -24,6 +24,10 @@ div.form-group {
  	
  }
 
+ .left p {
+ 	color: white;
+ }
+
  .faq {
  	border: 1px solid khaki;
  	width: 75%;

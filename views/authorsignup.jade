@@ -3,17 +3,25 @@ extends layout
 block content
 	.headbar
 		img(src='/images/books.jpg')
+		.slogan
+			h3
+				| GET READER FEEDBACK
+				br
+				span.italic BEFORE
+				|  YOU HIT PUBLISH
 	.mid-block
-		.testimonial
-			h3 GET FEEDBACK
+		.testimonial.left
+			h3 GET FEEDBACK FROM REAL READERS
+			p
+				| _____
 			h3 EDIT RAPIDLY, PUBLISH SOONER
-			h3 REACH LOYAL READERS/FANS
 			p
-				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				| _____
+			h3 REACH NEW FANS
 			p
-				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.		
+				| _____
 			p
-				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				| _____
 		.testimonial.sign-up
 			h3 FIND A BETA READER
 			form(role='form', method='post', action='/formsubmit')
@@ -40,18 +48,18 @@ block content
 				.panel-heading
 					h4.panel-title
 						a(data-toggle='collapse', data-parent='#accordion', href='#collapseOne')
-							| I already have an editor. Do I really need a beta reader?
+							| What is a beta reader, anyway?
 				#collapseOne.panel-collapse.collapse
 					.panel-body
-						| Yes.
+						| A beta reader is a non-professional who simply loves to read. A good beta reader will give you honest feedback on everything from grammar to storyline.
 			.panel.panel-default
 				.panel-heading
 					h4.panel-title
 						a(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo')
-							| How do I know readers are high quality?
+							| I already have an editor. Do I really need a beta reader?
 				#collapseTwo.panel-collapse.collapse
 					.panel-body
-						| They have to like reading.
+						| Yes.
 			.panel.panel-default
 				.panel-heading
 					h4.panel-title
@@ -59,7 +67,7 @@ block content
 							| How soon can I get feedback?
 				#collapseThree.panel-collapse.collapse
 					.panel-body
-						| 24-48 hours.
+						| Beta readers usually provide feedback within 24-48 hours.
 			.panel.panel-default
 				.panel-heading
 					h4.panel-title
@@ -67,7 +75,7 @@ block content
 							| What if my beta reader provides unsatisfactory feedback?
 				#collapseFour.panel-collapse.collapse
 					.panel-body
-						| Oh well.
+						| We have a rating system in place to ensure quality results from our readers. If a reader does not provide appropriate or complete feedback, we will remove the reader from the reader pool.  
 			.panel.panel-default
 				.panel-heading
 					h4.panel-title
@@ -75,7 +83,7 @@ block content
 							| Where does my money go?
 				#collapseFive.panel-collapse.collapse
 					.panel-body
-						| You receve weekly payments.
+						| 85% of the author fee goes directly to the reader. The other 15% keeps the site running.
 		h6
 			a(href='mailto:vancjenniferm@gmail.com') Don't See Your Question Here? Email Us!
 
