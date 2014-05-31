@@ -53,14 +53,7 @@ app.post('/formsubmit', function(req, res) {
 	fs.writeFile('myuserdata.txt', userData);
 });
 
-	//WORKS
-	// for (key in req.body) {
-	// 	fs.writeFile('userinf.txt', key + ' = ' + req.body[key])
-	// } 
-	//END WORKS
-
-
-app.get('/users', user.list);
+// app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
